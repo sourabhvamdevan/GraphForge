@@ -1,0 +1,27 @@
+# Render Blueprint for the backend API (Phase 7).
+# In Render: New > Blueprint > pick this repo. Then set ALLOWED_ORIGINS to your Vercel URL
+# and, optionally, GEMINI_API_KEY.
+services:
+  - type: web
+    name: graphforge-api
+    runtime: python
+    rootDir: backend
+    plan: free
+    buildCommand: pip install -r requirements.txt && python -m spacy download en_core_web_sm
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: ALLOWED_ORIGINS
+        value: https://your-app.vercel.app
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_MODEL
+        value: gemini-2.5-flash
+      - key: DATABASE_URL
+        value: sqlite:///./kg.db
+      - key: MAX_UPLOAD_MB
+        value: "10"
+      - key: MAX_PAGES
+        value: "50"

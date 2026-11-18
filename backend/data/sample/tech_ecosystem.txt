@@ -1,0 +1,17 @@
+The Modern AI Ecosystem
+
+The artificial intelligence industry is shaped by a small group of companies, investors and researchers whose relationships are closely linked. Capital, cloud capacity and talent flow between the same handful of organizations, which makes the sector a good test case for a knowledge graph.
+
+Microsoft invested in OpenAI. OpenAI uses Azure infrastructure to train its models. Microsoft developed Azure. Sam Altman is the CEO of OpenAI. Altman co-founded OpenAI in 2015. OpenAI developed ChatGPT. OpenAI is based in San Francisco. Satya Nadella is the CEO of Microsoft. Microsoft is headquartered in Redmond.
+
+Google DeepMind is part of Google. Google DeepMind developed AlphaFold. AlphaFold predicts the structure of proteins with remarkable accuracy. Demis Hassabis is the CEO of Google DeepMind. Google DeepMind is based in London. Google developed TensorFlow. Google competes with Microsoft in cloud computing.
+
+Anthropic partnered with Amazon, which built AWS. Amazon invested in Anthropic. Google also invested in Anthropic. Dario Amodei founded Anthropic. Anthropic competes with OpenAI. Anthropic is based in San Francisco. Andy Jassy is the CEO of Amazon. Amazon is headquartered in Seattle.
+
+Meta developed PyTorch. OpenAI uses PyTorch for research. Mark Zuckerberg is the CEO of Meta. Hugging Face collaborates with Meta on open models. Hugging Face is based in New York. The company hosts thousands of open models, datasets and demos, and its libraries have become a default starting point for teams that want to experiment with language models without training them from scratch.
+
+Nvidia supplies the chips behind most of this work. Demand for its accelerators has grown so quickly that access to compute is now one of the main constraints on how fast new models can be trained. Jensen Huang founded Nvidia. Nvidia developed CUDA. Nvidia partnered with Microsoft to expand data center capacity. Microsoft also partnered with Meta on open model distribution.
+
+Outside the United States, the picture is similar. Mistral AI is based in Paris. Arthur Mensch is the CEO of Mistral AI. Mistral AI partnered with Microsoft in 2024. Cohere is based in Toronto. Aidan Gomez co-founded Cohere. Cohere partnered with Oracle to bring its models to enterprise customers. Anthropic uses AWS infrastructure to train its models.
+
+Taken together, these statements describe a dense network. Cloud providers such as Azure and AWS sit underneath the model developers, while investors such as Microsoft, Amazon and Google tie the largest labs to their platforms. Researchers move between these organizations frequently, and many of the most widely used tools, including PyTorch and TensorFlow, began as internal projects at large technology companies before being released to the public. Understanding who funds whom, who builds what, and which infrastructure supports which models is the first step toward reasoning about how the industry will evolve over the next decade.

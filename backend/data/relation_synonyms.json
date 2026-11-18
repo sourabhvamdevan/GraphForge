@@ -1,0 +1,14 @@
+{
+  "invested_in": ["invested in", "invests in", "invest in", "invested", "invest", "investment", "investor", "backed", "backs", "funded", "funds", "financed"],
+  "uses_infrastructure": ["cloud infrastructure", "infrastructure", "cloud provider", "cloud", "hosted on", "hosting", "runs on", "run on", "trains on", "compute provider"],
+  "founded": ["co-founded", "cofounded", "founded", "founder", "founders", "found", "established", "started"],
+  "works_at": ["works at", "work at", "works for", "work for", "work", "works", "worked", "working", "employed", "employee", "employees", "ceo", "chief executive", "leads", "lead", "runs"],
+  "acquired": ["acquired", "acquire", "acquisition", "bought", "buy", "purchased"],
+  "partnered_with": ["partnered with", "partner with", "partnered", "partner", "partners", "partnership"],
+  "uses": ["uses", "use", "using", "used", "relies on", "depends on"],
+  "developed": ["developed", "develop", "developer", "built", "build", "created", "create", "made", "released", "launched"],
+  "located_in": ["located in", "located", "based in", "based", "headquartered", "headquarters", "where"],
+  "competes_with": ["competes with", "compete with", "competes", "compete", "competitor", "competitors", "rival", "rivals"],
+  "part_of": ["part of", "subsidiary", "division", "belongs to", "owned by"],
+  "collaborates_with": ["collaborates with", "collaborate with", "collaborated", "collaborates", "collaboration", "works with", "work with"]
+}

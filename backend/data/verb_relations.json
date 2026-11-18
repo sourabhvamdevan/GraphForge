@@ -1,0 +1,40 @@
+{
+  "verbs": {
+    "invest": "invested_in", "fund": "invested_in", "back": "invested_in", "finance": "invested_in",
+    "found": "founded", "co-found": "founded", "cofound": "founded", "establish": "founded", "start": "founded",
+    "acquire": "acquired", "buy": "acquired", "purchase": "acquired",
+    "partner": "partnered_with", "team": "partnered_with", "ally": "partnered_with",
+    "use": "uses", "adopt": "uses", "rely": "uses", "deploy": "uses",
+    "build": "developed", "develop": "developed", "create": "developed", "release": "developed",
+    "launch": "developed", "design": "developed", "make": "developed", "invent": "developed",
+    "base": "located_in", "headquarter": "located_in", "locate": "located_in",
+    "compete": "competes_with", "rival": "competes_with",
+    "collaborate": "collaborates_with", "cooperate": "collaborates_with",
+    "join": "works_at", "lead": "works_at", "employ": "works_at", "run": "works_at",
+    "work": "works_at", "host": "uses_infrastructure", "train": "uses_infrastructure"
+  },
+  "prep_overrides": {
+    "work": {"with": "collaborates_with", "at": "works_at", "for": "works_at"},
+    "run": {"on": "uses_infrastructure"},
+    "host": {"on": "uses_infrastructure"},
+    "train": {"on": "uses_infrastructure"},
+    "team": {"up": "partnered_with", "with": "partnered_with"},
+    "partner": {"with": "partnered_with"}
+  },
+  "verbs_requiring_prep": ["host", "train"],
+  "nouns": {
+    "ceo": "works_at", "cto": "works_at", "cfo": "works_at", "president": "works_at",
+    "chairman": "works_at", "chairwoman": "works_at", "chair": "works_at", "employee": "works_at",
+    "engineer": "works_at", "researcher": "works_at", "scientist": "works_at", "executive": "works_at",
+    "director": "works_at", "head": "works_at", "chief": "works_at",
+    "founder": "founded", "cofounder": "founded", "co-founder": "founded",
+    "subsidiary": "part_of", "division": "part_of", "unit": "part_of", "part": "part_of",
+    "investor": "invested_in", "backer": "invested_in",
+    "partner": "partnered_with", "competitor": "competes_with", "rival": "competes_with",
+    "headquarters": "located_in"
+  },
+  "keyword_overrides": [
+    {"from": "uses", "keywords": ["infrastructure", "cloud", "data center", "data centers", "compute"], "to": "uses_infrastructure"}
+  ],
+  "person_subject_relations": ["works_at", "founded"]
+}

@@ -1,0 +1,9 @@
+{
+  "ORG": [
+    "OpenAI", "Anthropic", "Google DeepMind", "DeepMind", "Nvidia", "NVIDIA", "Hugging Face", "Meta",
+    "Microsoft", "Amazon", "Google", "Alphabet", "Apple", "IBM", "Mistral AI", "Cohere", "xAI", "Tesla",
+    "Intel", "AMD", "Oracle", "Salesforce", "Stability AI", "Inflection AI", "Baidu", "Alibaba", "Tencent",
+    "Databricks", "Snowflake", "Scale AI", "Perplexity", "Character.AI", "SoftBank", "Sequoia Capital",
+    "Andreessen Horowitz", "Y Combinator", "ISRO", "NASA", "ESA", "SpaceX", "Blue Origin"
+  ]
+}

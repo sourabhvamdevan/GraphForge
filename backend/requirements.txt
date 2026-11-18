@@ -1,0 +1,12 @@
+fastapi==0.162.5
+uvicorn[standard]==0.54.0
+pydantic==2.14.3
+pydantic-settings==2.15.0
+python-multipart==0.0.32
+pymupdf==1.28.2
+spacy==3.8.18
+networkx==3.4.2
+rapidfuzz==3.14.5
+google-genai==2.33.0
+pytest==9.2.0
+httpx==0.28.1

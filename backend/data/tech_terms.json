@@ -1,0 +1,9 @@
+[
+  "Azure", "Microsoft Azure", "AWS", "Amazon Web Services", "Google Cloud", "Google Cloud Platform", "GCP",
+  "Oracle Cloud", "IBM Cloud",
+  "PyTorch", "TensorFlow", "JAX", "Keras", "scikit-learn", "Kubernetes", "Docker", "CUDA", "ROCm",
+  "Hadoop", "Spark", "Apache Spark", "Kafka", "PostgreSQL", "MySQL", "MongoDB", "Redis",
+  "GPT-3", "GPT-4", "GPT-4o", "ChatGPT", "BERT", "LLaMA", "Llama", "Gemini", "PaLM", "AlphaFold", "AlphaGo",
+  "Transformers", "TPU", "TPUs", "GPU", "GPUs", "Linux", "Python", "Rust", "Java", "JavaScript", "TypeScript",
+  "React", "Node.js", "Copilot", "GitHub Copilot", "Bedrock", "Amazon Bedrock", "Vertex AI", "Trainium", "H100"
+]
