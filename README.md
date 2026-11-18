@@ -1,6 +1,6 @@
 # GraphForge
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel)]()
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://graphforge-project.vercel.app/)
 [![API Status](https://img.shields.io/badge/API_Status-Online-brightgreen?style=for-the-badge&logo=render)](https://knowledge-graph-construction-and.onrender.com/api/health)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.162-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -10,7 +10,7 @@
 
 An end-to-end neuro-symbolic engine that transforms unstructured text and PDFs into structured knowledge graphs, visualizes complex networks interactively, and answers natural language questions through multi-hop traversal with complete evidence provenance. GraphForge uses spaCy and Gemini for extraction, NetworkX for reasoning, and React Flow for exploration.
 
-**Live Demo:** [](https://graphforge.vercel.app/)
+**Live Demo:** [https://graphforge-project.vercel.app/](https://graphforge-project.vercel.app/)
 
 ---
 
